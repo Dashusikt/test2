@@ -13,3 +13,5 @@ fit <- aov(mpg~cyl, data=mpg_new)
 summary(fit)
 
 print("good job!")
+
+# я удалила строчку № 12
