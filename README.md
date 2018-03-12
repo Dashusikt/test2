@@ -12,5 +12,6 @@ mpg_new <- subset(data, mpg >15)
 fit <- aov(mpg~cyl, data=mpg_new)
 summary(fit)
 
-names(data)[2] <- "eto lishnaya strochka. udali menya"
 print("good job!")
+
+# я удалила строчку № 12
